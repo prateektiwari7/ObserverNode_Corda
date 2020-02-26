@@ -15,7 +15,7 @@
        ➡️   Done
        Flow completed with result: SignedTransaction(id=8D26F085F22CF6B13C9877B22EB44D0FB7980B4165D4B20385485198A8BFE5CD)
        
-   #####Check party A state it will say 
+   Check party A state it will say 
    
         Wed Feb 26 17:33:18 IST 2020>>> run vaultQuery contractStateType: com.template.states.NameState
         states: []
@@ -24,7 +24,7 @@
         stateTypes: "UNCONSUMED"
         otherResults: []
         
-   #####PartyB ofcourse has state data:- 
+   PartyB ofcourse has state data:- 
    
         Wed Feb 26 17:32:19 IST 2020>>> run vaultQuery contractStateType: com.template.states.NameState
         states:
@@ -59,7 +59,7 @@
         stateTypes: "UNCONSUMED"
         otherResults: []
         
-   #####PartyC also has this transaction, but why? 
+   PartyC also has this transaction, but why? 
    
         Wed Feb 26 17:32:21 IST 2020>>> run vaultQuery contractStateType: com.template.states.NameState
         states:
